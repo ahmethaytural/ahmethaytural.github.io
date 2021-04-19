@@ -1,0 +1,96 @@
+@font-face { font-family: 'Trueno'; src: url('../fonts/trueno.otf'); }
+
+body {
+	background-color: #190a12;
+	overflow-x: hidden;
+}
+
+.bgimg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	position: relative;
+	max-width: 450px;
+}
+
+.info {
+	font-family: 'Trueno';
+	text-align: center;
+}
+
+.info .intro { padding: 0; }
+
+.info .name {
+	margin: auto;
+	padding: 1rem;
+	background-color: black;
+	color: #f8f8f8;
+	font-size: 20pt;
+}
+
+.info .listen,
+.info .link {
+	margin: auto;
+	padding: 1rem;
+	background-color: #f8f8f8;
+	color: #03080d;
+	border: 1px solid #e0e0e0;
+	font-size: 20pt;
+	opacity: .8;
+}
+
+.info .link {
+    color: #233140;
+    text-decoration: none;
+}
+
+.info .link:hover {
+	background-color: black;
+	color: white;
+	opacity: .8;
+}
+
+.apple-music {
+	margin: auto;
+	background-image: url(../img/distribution/apple-music.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 180px;
+	height: 40px
+}
+
+.deezer {
+	margin: auto;
+	background-image: url(../img/distribution/deezer.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 180px;
+	height: 40px
+}
+
+.spotify {
+	margin: auto;
+	background-image: url(../img/distribution/spotify.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 180px;
+	height: 40px
+}
+
+.amazon-music {
+	margin: auto;
+	background-image: url(../img/distribution/amazon-music.svg);
+	background-repeat: no-repeat;
+	background-position: center;,
+	width: 180px;
+	height: 40px
+}
