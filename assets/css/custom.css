@@ -18,13 +18,20 @@ body {
 }
 
 .container {
-	position: relative;
-	max-width: 450px;
+	position: absolute;
+	display: flex;
+	top: 0;
+	left: 0;
+	height: 100%;
+	min-width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 .info {
 	font-family: 'Trueno';
 	text-align: center;
+	max-width: 450px;
 }
 
 .info .intro { padding: 0; }
