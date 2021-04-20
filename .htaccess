@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteRule ^gozlerim-kapali$ gozlerim-kapali.html [L]
-RewriteRule ^nedensizce$ nedensizce.html [L]
-RewriteRule ^kirik$ kirik.html [L]
 RewriteRule ^nasilda-solmus$ nasilda-solmus.html [L]
+RewriteRule ^kirik$ kirik.html [L]
+RewriteRule ^nedensizce$ nedensizce.html [L]
+RewriteRule ^gozlerim-kapali$ gozlerim-kapali.html [L]
