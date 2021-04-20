@@ -1,2 +1,5 @@
 RewriteEngine On
 RewriteRule ^gozlerim-kapali$ gozlerim-kapali.html [L]
+RewriteRule ^gozlerim-kapali$ nedensizce.html [L]
+RewriteRule ^gozlerim-kapali$ kirik.html [L]
+RewriteRule ^gozlerim-kapali$ nasilda-solmus.html [L]
