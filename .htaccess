@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteRule ^sadece-izliyorum$ sadece-izliyorum.html [L]
 RewriteRule ^nasilda-solmus$ nasilda-solmus.html [L]
 RewriteRule ^kirik$ kirik.html [L]
 RewriteRule ^nedensizce$ nedensizce.html [L]
