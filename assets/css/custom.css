@@ -47,9 +47,9 @@ body {
 .info .link {
 	margin: auto;
 	padding: 1rem;
-	background-color: #f8f8f8;
+	background-color: #ffffff;
 	color: #03080d;
-	border: 1px solid #e0e0e0;
+	border: 1px solid #eaeaea;
 	font-size: 20pt;
 	opacity: .8;
 }
