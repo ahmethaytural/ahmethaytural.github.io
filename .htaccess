@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteRule ^sadece-izliyorum$ sadece-izliyorum.html [L]
-RewriteRule ^nasilda-solmus$ nasilda-solmus.html [L]
-RewriteRule ^kirik$ kirik.html [L]
-RewriteRule ^nedensizce$ nedensizce.html [L]
-RewriteRule ^gozlerim-kapali$ gozlerim-kapali.html [L]
+RewriteRule ^music/sadece-izliyorum$ music/sadece-izliyorum.html [L]
+RewriteRule ^music/nasilda-solmus$ music/nasilda-solmus.html [L]
+RewriteRule ^music/kirik$ music/kirik.html [L]
+RewriteRule ^music/nedensizce$ music/nedensizce.html [L]
+RewriteRule ^music/gozlerim-kapali$ music/gozlerim-kapali.html [L]
