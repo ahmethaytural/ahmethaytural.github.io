@@ -1,2 +1,5 @@
 RewriteEngine On
 RewriteRule ^music/(.*)$ music/$1 [L]
+
+RewriteCond %{THE_REQUEST} ^music/$1.html [NC]
+RewriteRule ^ / [R=301,L]
