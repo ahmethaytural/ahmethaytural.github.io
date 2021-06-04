@@ -1,6 +1,2 @@
 RewriteEngine On
-RewriteRule ^music/sadece-izliyorum$ music/sadece-izliyorum.html [L]
-RewriteRule ^music/nasilda-solmus$ music/nasilda-solmus.html [L]
-RewriteRule ^music/kirik$ music/kirik.html [L]
-RewriteRule ^music/nedensizce$ music/nedensizce.html [L]
-RewriteRule ^music/gozlerim-kapali$ music/gozlerim-kapali.html [L]
+RewriteRule ^music/(.*)$ music/$1 [L]
