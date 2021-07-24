@@ -141,18 +141,19 @@ body {
     margin-left: -64px;
     margin-top: -64px;
     position: absolute;
-    background: url(../img/play.svg) no-repeat;
+    background: url(../img/play.png) no-repeat;
     cursor: pointer;
     z-index: 1;
+    opacity: .8;
 }
 
 .loading {
-	height: 128px;
-    width: 128px;
+	height: 100px;
+    width: 100px;
     left: 50%;
     top: 50%;
-    margin-left: -64px;
-    margin-top: -64px;
+    margin-left: -42px;
+    margin-top: -50px;
     position: absolute;
     background: url(../img/loading.svg) no-repeat;
     z-index: 1;
