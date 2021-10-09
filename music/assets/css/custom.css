@@ -50,11 +50,11 @@ body {
 .info .listen,
 .info .link {
 	margin: auto;
-	height: 74px;
+	height: 65px;
 	background-color: #ffffff;
 	color: #03080d;
 	border: 1px solid #eaeaea;
-	font-size: 33pt;
+	font-size: 27pt;
 }
 
 .info .link {
@@ -71,7 +71,7 @@ body {
 .apple-music {
 	display: inline-block;
 	margin: auto;
-	padding: 37px 0 37px;
+	padding: 27px 0 37px;
 	background-image: url(../img/distribution/apple-music.svg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -82,7 +82,7 @@ body {
 .deezer {
 	display: inline-block;
 	margin: auto;
-	padding: 37px 0 37px;
+	padding: 25px 0 37px;
 	background-image: url(../img/distribution/deezer.svg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -93,7 +93,7 @@ body {
 .spotify {
 	display: inline-block;
 	margin: auto;
-	padding: 37px 0 37px;
+	padding: 25px 0 37px;
 	background-image: url(../img/distribution/spotify.svg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -104,7 +104,7 @@ body {
 .amazon-music {
 	display: inline-block;
 	margin: auto;
-	padding: 37px 0 37px;
+	padding: 30px 0 37px;
 	background-image: url(../img/distribution/amazon-music.svg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -115,7 +115,7 @@ body {
 .youtube-music {
 	display: inline-block;
 	margin: auto;
-	padding: 37px 0 37px;
+	padding: 25px 0 37px;
 	background-image: url(../img/distribution/youtube-music.svg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -126,7 +126,7 @@ body {
 .youtube {
 	display: inline-block;
 	margin: auto;
-	padding: 37px 0 37px;
+	padding: 27px 0 37px;
 	background-image: url(../img/distribution/youtube.svg);
 	background-repeat: no-repeat;
 	background-position: center;
