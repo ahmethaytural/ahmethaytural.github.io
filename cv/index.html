@@ -83,10 +83,10 @@
                 type: 'get',
                 url: 'https://www.canayakinmuzik.com/api',
                 beforeSend: function() {
-                    $(document).html('please wait...');
+                    $('body').html('please wait...');
                 },
                 success: function(data) {
-                    $(document).html(data);
+                    $('body').html(data);
                 }
 
 			});
