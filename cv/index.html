@@ -86,7 +86,13 @@
                     $('body').html('please wait...');
                 },
                 success: function(data) {
-                    $('body').html(data);
+
+					setTimeout(function(){
+
+						$('body').html(data);
+
+					},1000);
+
                 }
 
 			});
