@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Signika&display=swap');
+
+@font-face {
+    font-family: 'Jayadhira';
+    src: url('../fonts/jayadhira.ttf');
+}
+
+body {
+    background-image: url(../../images/background.png);
+    font-family: 'Signika', sans-serif;
+}
+
+nav {
+    font-size: 11pt;
+}
+
+nav .navbar-brand {
+    color: #f1f1f1 !important;
+    font-family: 'Jayadhira';
+    font-size: 12pt;
+}
